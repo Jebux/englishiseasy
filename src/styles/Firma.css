@@ -1,0 +1,16 @@
+.ariaspace{
+  width: 100%;
+  height: 50px;
+  background-color:#0c0033 ;
+  color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.ariaspace a{
+  text-decoration: none;
+  color: rgb(254, 138, 75);
+}
+

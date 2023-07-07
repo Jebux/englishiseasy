@@ -1,0 +1,70 @@
+.contenedor-flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.h1-center{
+  text-align: center;
+}
+
+.contenedor-flex-in{
+  width: 33%;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.h3-planes{
+  margin-bottom: 0px;
+}
+
+.li-circular{
+  list-style-type: circle;;
+}
+
+.img-planes{
+  width: 100%;
+  border-radius: 30px;
+}
+
+.precio-contenedor{
+  border: 2px solid black ;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.precio-header{
+  background: #E6007E;
+  padding: 10px;
+}
+
+.precio-title{
+  color: white;
+  text-align: center;
+}
+
+.dolar-span{
+  font-size: .9rem;
+}
+
+.precio-body{
+  background: white;
+  padding: 38px;
+  text-align: center;
+}
+
+.btn-eie{
+  background: #19006c;
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+}
+
+@media (max-width:700px) {
+  .contenedor-flex-in{
+    width: 100%;
+    flex: wrap;
+  }
+  
+}

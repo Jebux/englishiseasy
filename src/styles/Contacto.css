@@ -1,0 +1,38 @@
+.scontenedor-eie{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedor-eie{
+  padding-top: 25px;
+  max-width: 80vw;
+}
+
+.contenedor-eie>h1{
+  text-align: center;
+}
+
+.preguntas{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.preguntas-in{
+  width: 50%;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+@media (max-width:600px) {
+  .preguntas{
+    display: block;
+  }
+
+  .preguntas-in{
+    width: 100%;
+  }
+  
+}

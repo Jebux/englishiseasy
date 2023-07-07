@@ -1,0 +1,47 @@
+.agendamiento{
+  background: #0c0033;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 4px;
+  padding-bottom: 6px;
+  width: 100%;
+  color: #fff;
+}
+
+.agenda-left{
+  padding-right:50px;
+  flex: wrap;
+}
+
+.agenda-left span{
+  font-size: 25px;
+}
+
+.agenda-right{
+  flex: wrap;
+}
+
+.btnagenda{
+  border-radius: 15px;
+  padding: 8px 10px;
+  border: none;
+  background-color: rgb(255, 248, 175);
+}
+
+@media (max-width: 500px){
+  .agendamiento{
+    display:block;
+  }
+  .agenda-left{
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .agenda-right{
+    padding-bottom:5px;
+    text-align: center;
+  }
+
+}
