@@ -1,2 +1,1 @@
-Color principal: #E6007E
-Color secundario: #0c0033
+Página desarrollada para English is easy 
